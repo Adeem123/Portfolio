@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="./logo.png" alt="brand-logo" height="50px">
+        <a class="navbar-brand" href="#">Adeem Rahat</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+    <!-- HERO SECTION  -->
+    <!-- HOME SECTION -->
+
+
+<section id="home" class="p-3 mb-2 bg-dark text-white">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./adeem.jpeg" class="d-block mx-lg-auto img-fluid adeem-img" alt="Adeem Image" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 id="name" class="display-5 fw-bold lh-1 mb-3" >Adeem Rahat</h1>
+            <h2 id="domain" class="fw-bold mb-5"></h2>
+
+            <p class="lead para">I am a proficient frontend web developer with a versatile skill set that includes HTML, CSS, JavaScript, Bootstrap, React, and Node.js. With a keen eye for design and a strong foundation in front-end technologies, I bring creative and functional web solutions to life. Whether it's crafting responsive layouts, enhancing user experiences, or building dynamic web applications, I'm dedicated to delivering top-notch results in the ever-evolving world of web development.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+              <button class="btn">
+                <span class="text"><a class="cv-link" href="./CV.pdf">View CV</a></span>
+              </button>
+
+              <button class="btn">
+                <span class="text"><a class="cv-link-download" href="./CV.pdf" download="./CV.pdf">Download CV</a></span>
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <!-- ABOUT -->
+
+
+<section id="about">
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom text-center">About</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/school.png" alt="school"/>
+        
+          </div>
+          <h3 class="fs-2 text-body-emphasis">School</h3>
+          <p>School Name: The Educators</p>
+          <p>Matriculation in 2018</p>
+          
+          <a href="https://www.google.com/maps/dir//W27P%2BM57,+Nazimabad+No.+4+Block+4+Nazimabad,+Karachi,+Karachi+City,+Sindh+74600/@24.9141468,66.9530074,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3eb33fa33af1e485:0x11c35b485527d0f1!2m2!1d67.0354297!2d24.9141608?entry=ttu" class="icon-link">
+            Go to Map
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img width="40" height="40" src="https://img.icons8.com/fluency-systems-filled/48/student-center.png" alt="student-center"/>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">College</h3>
+          <p>College Name: Govt. Dehli College</p>
+          <p>Intermediate in 2020</p>
+          
+          <a href="https://www.google.com/maps/place/Government+Delhi+College/@24.9129784,67.0600869,15z/data=!4m6!3m5!1s0x3eb33f1049883a99:0xde9b576cf12c6541!8m2!3d24.9129784!4d67.0600869!16s%2Fg%2F11bzzx8pxq?entry=ttu" class="icon-link">
+            Go to Map
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/graduation-cap.png" alt="graduation-cap"/>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">University</h3>
+          <p>Univeristy Name: Usman Institute Of Technology-NED</p>
+          <p>Graduation in 2024 (Undergraduate)</p>
+          
+          <a href="https://www.google.com/maps/place/UIT+University/@24.9277447,67.1040136,17z/data=!3m1!4b1!4m6!3m5!1s0x3eb338c700571b09:0xd86779b29e77f36a!8m2!3d24.9277448!4d67.1088845!16zL20vMGc2Y18w?entry=ttu" class="icon-link">
+            Go to Map
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SKILLS -->
+
+<section id="skills">
+  <div class="container">
+    <h2 class="pb-2 border-bottom mb-5 text-center">Skills</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+  
+        <div class="card">
+          <img src="./html.png" alt="html image" height="100px">
+          <p class="heading">
+            Html</p>
+        </div>
+
+     </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+  
+      <div class="card">
+        <img src="./css.png" alt="css image" height="100px">
+        <p class="heading">
+          Css</p>
+      </div>
+
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+  
+    <div class="card">
+      <img src="./js.png" alt="javascript image" height="100px">
+          <p class="heading">
+            JavaScript</p>
+    </div>
+
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+  
+    <div class="card">
+      <img src="./bootstrap.png" alt="bootstrap image" height="100px">
+    <p class="heading">
+      Bootstrap</p>
+    </div>
+
+       </div>
+
+</div>
+
+
+<div class="row">
+  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+
+    <div class="card">
+      <img src="./jquery.png" alt="jquery image" height="100px">
+      <p class="heading">
+        Jquery</p>
+    </div>
+
+ </div>
+
+  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+
+  <div class="card">
+    <img src="./github.png" alt="github image" height="100px">
+    <p class="heading">
+      GitHub</p>
+  </div>
+
+  </div>
+
+  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+
+<div class="card">
+  <img src="./react.png" alt="react image" height="100px">
+      <p class="heading">
+        React</p>
+</div>
+
+  </div>
+
+  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+
+<div class="card">
+  <img src="./sql.png" alt="sql image" height="100px">
+<p class="heading">
+  Sql</p>
+</div>
+
+   </div>
+
+</div>
+
+
+</div>
+</section>
+
+
+<!-- PROJECTS -->
+
+
+<section id="projects">
+
+  <main>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 fw-bold">Designed for web developers</h1>
+        <h3 class="fw-normal text-muted mb-3">Build anything you want with Aperture</h3>
+        <div class="d-flex gap-3 justify-content-center lead fw-normal">
+            
+        </div>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+  
+    <div class="project-cards d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Move It</h2>
+          <p class="lead">To provide moving services to customers</p>
+        </div>
+        <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 100%; height: 400px; border-radius: 21px 21px 0 0;">
+        <img src="./moveit.png" alt="" style="width: 100%; height: 300px; border-radius: 21px 21px 0 0;">
+
+        <button class="btn-project"><a class="project-link" href="https://move-it-site.netlify.app/">View Project</a></button>
+
+        </div>
+      </div>
+      <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Tindog</h2>
+          <p class="lead">Meet new and interesting dogs nearby.</p>
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 100%; height: 400px; border-radius: 21px 21px 0 0;">
+        <img src="./tindog.png" alt="" style="width: 100%; height: 300px; border-radius: 21px 21px 0 0;">
+
+        <button class="btn-project"><a class="project-link" href="https://tindogbrand.netlify.app/">View Project</a></button>
+      
+
+        </div>
+      </div>
+    </div>
+  
+  
+  </main>
+</section>
+
+
+<!-- CONTACT -->
+
+
+<section id="contact" class="bg-dark">
+
+  <div class="container">  
+
+    <h2 class="contact-heading text-center mt-5 mb-5">Contact Me</h2>
+
+    <div class="social-media">
+     <a href="https://www.facebook.com/adeem.alihamza.1"><img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/></a> 
+      <a href="https://www.linkedin.com/in/adeem-rahat-544a26257/?originalSubdomain=pk"><img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/></a>
+      <a href="https://github.com/Adeem123"><img width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github"/></a>
+      <a href="mailto:adeemalihamza@gmail.com"><img width="48" height="48" src="https://img.icons8.com/emoji/48/e-mail.png" alt="e-mail"/></a>
+    </div>
+ 
+    <footer class="py-3 my-4 pt-5">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#home" class="nav-link px-2 footer-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 footer-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link px-2 footer-link">Skills</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link px-2 footer-link">Projects</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link px-2 footer-link">Contact</a></li>
+      </ul>
+      <p class="text-center copyright">© 2023 Adeem Rahat</p>
+      <p class="text-center copyright">All rights reserved.</p>
+    </footer>
+</div>
+
+
+</section>
+
+  
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="script.js"></script>
+</html>
